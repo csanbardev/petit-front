@@ -3,6 +3,9 @@
   --accent: #f58549;
   --light-accent: #dfa964;
 }
+*{
+  font-family: 'Josefin Sans', sans-serif;
+}
 
 body{
   background-color: var(--background-color);
