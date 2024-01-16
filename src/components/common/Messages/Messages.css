@@ -20,3 +20,23 @@
 .message-icon{
   margin-left: .5rem;
 }
+
+.copy-message-container{
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+/* .copy-message-container{
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+} */
+/*
+.copy-message-container input, .copy-message-container button{
+  min-height: 35px;
+}
+
+.copy-message-container input{
+  max-width: 150px;
+  padding: 0 1rem;
+} */
