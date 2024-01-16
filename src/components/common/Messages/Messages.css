@@ -1,0 +1,22 @@
+
+.message-container{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: aquamarine;
+  min-width: 11rem;
+  font-size: .7rem;
+  border-radius: 5px;
+}
+
+
+.message-container p{
+  margin-left: .5rem;
+  text-align: left;
+  font-weight: 600;
+  color: beige;
+}
+
+.message-icon{
+  margin-left: .5rem;
+}

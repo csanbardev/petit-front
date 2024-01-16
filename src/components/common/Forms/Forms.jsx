@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form"
 import { postReq } from "../../../services/http"
 import { API_URL } from "../../../constants/constans"
 import './Forms.css'
+import { CommonMessage } from "../Messages/Messages"
+
 
 export function AcortarForm() {
   const { register, formState: { errors }, handleSubmit } = useForm()
@@ -24,7 +26,7 @@ export function AcortarForm() {
         })} />
         <input className="button--submit" type="submit" value="Acortar" />
       </div>
-      {errors.url && <p>{errors.url.message}</p>}
+      {errors.url && <CommonMessage text={errors.url.message} type='error' />}
     </form>
   )
 }
