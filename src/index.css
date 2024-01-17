@@ -1,12 +1,22 @@
-:root{
+:root {
   --background-color: #f4ecd6;
   --accent: #f58549;
   --light-accent: #dfa964;
 }
-*{
+
+* {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
+body {
   background-color: var(--background-color);
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
 }
