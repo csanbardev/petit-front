@@ -4,7 +4,7 @@ import './Acortador.css'
 export function Acortador() {
   return(
     <section id='acortador'>
-      <h1>Acorta tu URL</h1>
+      <h2>Acorta tu URL</h2>
       <AcortarForm />
     </section>
   )
