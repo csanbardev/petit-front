@@ -1,5 +1,5 @@
 .about-card{
-  background-color: #e6dac6;
+  background-color: var(--darkest-background);
   margin: 0 1.5rem;
   padding: .7rem;
 }
