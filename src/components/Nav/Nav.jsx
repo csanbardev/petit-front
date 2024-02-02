@@ -20,9 +20,9 @@ export function Nav() {
       <input type="checkbox" id="menu-toggle" />
       <nav className={menuVisible ? 'show' : 'hide'}>
         <ul>
-          <li><a className='nav-link' href="#" onClick={hideMenu}>Inicio</a><MdHome /></li>
-          <li><a className='nav-link' href="#about-area" onClick={hideMenu}>Acerca de</a><MdInfo /></li>
-          <li><a className='nav-link' href="#contact-area" onClick={hideMenu}>Contacto</a><MdContactSupport /></li>
+          <li><a className='nav-link' href="#" onClick={hideMenu}>Inicio <MdHome /></a></li>
+          <li><a className='nav-link' href="#about-area" onClick={hideMenu}>Acerca de <MdInfo /> </a></li>
+          <li><a className='nav-link' href="#contact-area" onClick={hideMenu}> Contacto <MdContactSupport /></a></li>
         </ul>
       </nav>
     </header>
