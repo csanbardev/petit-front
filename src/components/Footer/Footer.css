@@ -1,0 +1,36 @@
+footer {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-icons {
+  display: flex;
+  gap: .7rem;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  footer {
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  footer span{
+    font-size: 1.1rem;
+  }
+
+  .footer-icons{
+    gap: 1.5rem;
+  }
+}
